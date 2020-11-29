@@ -1,0 +1,100 @@
+task_name: "covid19"
+use_cuda: False
+
+warm_start_from: ""
+model_path_for_infer: ../checkpoints/covid19/model_810
+
+
+# data config
+train_file: ../data/data60987/train.json
+valid_file: ../data/data60987/valid.json
+percentage: 0.9
+
+add_edge_for_paired_nodes: True
+add_codon_nodes: True
+
+num_layers: 5
+layer_type: "simple_gnn" 
+emb_size: 64
+hidden_size: 64
+num_class: 3
+dropout_prob: 0.1
+
+# runconfig
+epochs: 200
+batch_size: 16 
+lr: 0.001
+shuffle: True
+save_steps: 200000000
+log_steps: 20
+max_ckpt: 8
+skip_steps: 0  # 前n个steps不打log
+eval_steps: 320 
+eval_max_steps: 10000
+
+
+# logger
+stdout: True
+log_dir: ../logs
+log_filename: log.txt
+save_dir: ../checkpoints
+output_dir: ../outputs
+files2saved: ["layers.py", "data_parser.py", "config.yaml", "main.py", "dataset.py", "model.py"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
