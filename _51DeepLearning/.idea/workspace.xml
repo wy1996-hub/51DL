@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeb716f6-9750-43b2-9deb-d296aaba54b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/参数优化策略/GradientDescent.py" beforeDir="false" />
-    </list>
+    <list default="true" id="eeb716f6-9750-43b2-9deb-d296aaba54b9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,23 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/梯度下降法/GradientDescent.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/分离梯度下降算法与参数优化策略/分离GD与optimizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/参数优化策略/optimizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="240">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -46,7 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/分离梯度下降算法与参数优化策略/分离GD与optimizer.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/参数优化策略/optimizer.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/梯度验证/GradValid.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/梯度下降法/GradientDescent.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
@@ -55,6 +52,8 @@
         <option value="$PROJECT_DIR$/GradientDescent/GradientDescent.py" />
         <option value="$PROJECT_DIR$/梯度下降法/GradientDescent.py" />
         <option value="$PROJECT_DIR$/参数优化策略/optimizer.py" />
+        <option value="$PROJECT_DIR$/梯度验证/GradValid.py" />
+        <option value="$PROJECT_DIR$/分离梯度下降算法与参数优化策略/分离GD与optimizer.py" />
       </list>
     </option>
   </component>
@@ -72,13 +71,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="_51DeepLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="_51DeepLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_51DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_51DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="分离梯度下降算法与参数优化策略" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="_51DeepLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -90,10 +93,16 @@
               <item name="_51DeepLearning" type="462c0819:PsiDirectoryNode" />
               <item name="梯度下降法" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="_51DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_51DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="梯度验证" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -111,7 +120,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.optimizer">
+  <component name="RunManager" selected="Python.分离GD与optimizer">
+    <configuration name="分离GD与optimizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="_51DeepLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分离梯度下降算法与参数优化策略" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分离梯度下降算法与参数优化策略/分离GD与optimizer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GradValid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="_51DeepLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/梯度验证" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/梯度验证/GradValid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GradientDescent (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="_51DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,6 +228,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.分离GD与optimizer" />
+        <item itemvalue="Python.GradValid" />
         <item itemvalue="Python.optimizer" />
         <item itemvalue="Python.GradientDescent (1)" />
         <item itemvalue="Python.GradientDescent" />
@@ -223,7 +276,7 @@
     <entry file="file://$PROJECT_DIR$/GradientDescent/GradientDescent.py" />
     <entry file="file://$PROJECT_DIR$/梯度下降法/GradientDescent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="48">
           <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -231,10 +284,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/梯度验证/GradValid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/参数优化策略/optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="240">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分离梯度下降算法与参数优化策略/分离GD与optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
         </state>
       </provider>
     </entry>
